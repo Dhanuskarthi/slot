@@ -1,5 +1,5 @@
 # Ex03 Time Table
-## Date:16-11-2024
+## Date:18-11-2024
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -25,17 +25,16 @@ Execute the program using runserver command.
 
 ## PROGRAM
 
-<doctype !html>
+<html>
     <head>
-        <title>Creating slot time table</title>
     </head>
     <body>
         <CENTER>
-        <img src="/static/logo.png" width="780" height="100">
+        <img src="logo.png" width="780" height="100">
         </CENTER>
         <br>
         <table align="center" BORDER="10" width="800" bgcolor="black" cellspacing="7.5" cellpadding="7.5">
-            <caption><b>SLOT TIME TABLE - DHANUS KARTHI S [24005701]</b></caption>
+            <caption><h1 align="center" >SLOT TIME TABLE - DHANUS KARTHI S [24005701]</h1></caption>
             <TR align="center" bgcolor="white"> 
                 <TH>DAY/TIME</TH><TH>MONDAY</TH><TH>TUESDAY</TH><TH>WEDNESDAY</TH><TH>THURSDAY</TH><TH>FRIDAY</TH><TH>SATURDAY</TH>
             </TR>  
@@ -108,7 +107,6 @@ Execute the program using runserver command.
                 <td>Mentor meet</td>
             </tr>
         </table>
-
         </body>
         </html>
 
